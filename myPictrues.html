@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的照片墙</title>
+	</head>
+	<body>
+		<h1>我的照片墙</h1>
+		<table>
+			<tr>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+			</tr>
+			<tr>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+			</tr>
+			<tr>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+				<td><img src="img/" alt=""/></td>
+			</tr>
+		</table>
+		<input type="file" id="uploadFile" onchange="readLocalFile()" />
+		<input type="button" value="上传" onclick=""  />
+		<script>
+   function readLocalFile () {
+        
+        var localFile = document.getElementById("uploadFile").files[0];
+        alert("文件名："+localFile.name+"文件类型："+localFile.type+"文件大小："+localFile.size);
+        var reader = new FileReader();
+        var content;
+        reader.readAsText(localFile,"UTF-8");
+        reader.onload = function(event) {
+            content = event.target.result;
+//          document.getElementById("fileContent").value = content;
+        }
+        reader.onerror = function(event) {
+            alert("File could not be read! Code " + event.target.error.code);
+        }
+    }
+   function upload(){
+   	document.getElementById("fileContent").value = content;
+   }
+ </script>
+		<script>
+			
+		</script>
+	</body>
+</html>
