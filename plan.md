@@ -8,7 +8,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 ||||1 :x:|2 :x:|3 :white_check_mark:|4 :white_check_mark:|
 |5 :white_check_mark:|6 :white_check_mark:|7:white_check_mark:|8:white_check_mark:|9:white_check_mark:|10 :x:|11 :x:|
-|12|13|14|15|16|17|18|
+|12 :white_check_mark:|13 :x:|14 :x:|15|16|17|18|
 |19|20|21|22|23|24|25|
 |26|27|28|29|30|||
 
