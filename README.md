@@ -7,3 +7,4 @@
 - [《栽培一个善宝宝》](goodBaby.md)
 - [近期计划](iwant.md)
 - [酵素](jiaosu.md)
+- [易度笔记](yiDu.md)
