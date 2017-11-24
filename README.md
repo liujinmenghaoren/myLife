@@ -8,3 +8,4 @@
 - [近期计划](iwant.md)
 - [酵素](jiaosu.md)
 - [易度笔记](yiDu.md)
+- [我在思考](iWantKown.md)
