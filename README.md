@@ -10,3 +10,4 @@
 - [易度笔记](yiDu.md)
 - [我在思考](iWantKown.md)
 - [教师资格证经验分享](./teacherTest)
+- [法律硕士](./law/readme.md)
