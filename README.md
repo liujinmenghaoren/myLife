@@ -10,4 +10,5 @@
 - [易度笔记](yiDu.md)
 - [我在思考](iWantKown.md)
 - [教师资格证经验分享](./teacherTest)
-- [法律硕士](./law/readme.md)
+- [备考法律硕士](./law/readme.md)
+- [每日任务](./myGoal/goal-2018.md)
