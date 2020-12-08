@@ -4,7 +4,7 @@
 	color: white;
 }
 body {
-	background-image: url(../images/background/bg1.jpg);
+	background-image: url(../images/background/bg6.gif);
 	/*opacity:1.5;*/
 				
 }
@@ -77,11 +77,19 @@ li {
 }
 .div-jingli {
 	width: auto;
-	height: 200px;
-	padding-left: 120px;
+	height: 330px;
+	padding-left: 140px;
 	padding-top: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid white;
+}
+.div-jingli p {
+	/*text-align: center;*/
+	margin-left: -40px;
+	height: 38px;
+}
+.jiagao {
+	height: 60px;
 }
 .div-pingjia {
 	width: auto;
@@ -97,10 +105,14 @@ li {
 	margin: 0 auto;
 	border-radius:75px;
 	border: 2px solid #aabbcc;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 20px #888888;
 	overflow: hidden;
 }
 .photo {
 	width: 150px;
-	height: 210px;
+	height: 216px;
+}
+.bottom p{
+	width: 150px;
+	margin: 0 auto;
 }
