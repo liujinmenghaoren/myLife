@@ -3,12 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>刘金梦简历</title>
+		<link rel="icon" href="../images/photo/resume.ico" sizes="32*32" />
 		<link rel="stylesheet" type="text/css" href="resume.css"/>
-		<style type="text/css">
-			
-		</style>
+		<script src="resume.js"></script>
 	</head>
-	<body>
+	<body id="body">
 		<div class="header"></div>
 		<div class="main">
 			<div class="div-photo">
@@ -107,5 +106,12 @@
 		<div class="bottom">
 			<p>更新于&nbsp;2019-12-08</p>
 		</div>
+		<button class="change" onclick="change();">切换背景</button>
 	</body>
+	<!--<script>
+		function change(){
+			var a = document.getElementsByTagName("button")[0].getAttribute("class");
+	alert(a);
+		}
+	</script>-->
 </html>
