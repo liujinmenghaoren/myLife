@@ -5,14 +5,10 @@
 }
 body {
 	background-image: url(../images/background/bg15.gif);
-	/*opacity:1.5;
-				*/
 }
 .header {
 	width: auto;
 	height: 50px;
-	/*border: 1px solid red;*/
-	/*background-color: cornflowerblue;*/
 }
 .main {
 	width: 1000px;
@@ -25,13 +21,11 @@ h3 {
 .div-photo {
 	width: auto;
 	height: 200px;
-	/*border: 1px solid red;*/
 }
 .div-basic {
 	width: auto;
 	height: 190px;
 	margin-bottom: 20px;
-	/*border: 1px solid red;*/
 	border-bottom: 1px solid white;
 }
 table {
@@ -52,7 +46,6 @@ td {
 	height: 110px;
 	padding-left: 120px;
 	padding-top: 20px;
-	/*border: 1px solid red;*/
 	border-bottom: 1px solid white;
 }
 li {
@@ -60,11 +53,10 @@ li {
 }
 .div-nengli {
 	width: auto;
-	height: 230px;
+	height: 300px;
 	padding-left: 120px;
 	padding-top: 20px;
 	margin-bottom: 20px;
-	/*border: 1px solid red;*/
 	border-bottom: 1px solid white;
 }
 .div-xiaoyuan {
@@ -77,14 +69,13 @@ li {
 }
 .div-jingli {
 	width: auto;
-	height: 330px;
+	height: 340px;
 	padding-left: 140px;
 	padding-top: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid white;
 }
 .div-jingli p {
-	/*text-align: center;*/
 	margin-left: -40px;
 	height: 38px;
 }
@@ -113,7 +104,7 @@ li {
 	height: 216px;
 }
 .bottom p{
-	width: 150px;
+	width: 350px;
 	margin: 0 auto;
 }
 .change {
@@ -124,5 +115,5 @@ li {
 	opacity:0.5;
 	position: fixed;
 	right: 50px;
-	bottom: 50px;
+	top: 200px;
 }

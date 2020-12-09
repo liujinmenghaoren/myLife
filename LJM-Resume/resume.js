@@ -1,5 +1,4 @@
-function change(){
-	var imgArr = [
+var imgArr = [
 		"url(../images/background/bg2.jpg)",
 		"url(../images/background/bg14.gif)",
 		"url(../images/background/bg6.gif)",
@@ -11,6 +10,9 @@ function change(){
 		"url(../images/background/bg22.jpg)",
 		"aa"
 	];
+
+function change(){
+	
 	var index = parseInt(Math.random()*(imgArr.length-1));
 	var currentImage = imgArr[index];
 	//alert(currentImage);
